@@ -1,4 +1,4 @@
-import {TransformerPlugin} from "../../../../packages/grafana-data/src/types/transformerPlugin";
+import {TransformerPlugin} from "@grafana/data";
 import {basicTransformRegistryItem} from "./transformers/basicTransform";
 
 export const plugin = new TransformerPlugin<{}>()

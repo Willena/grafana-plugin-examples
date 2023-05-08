@@ -1,7 +1,5 @@
 import React from 'react';
-import {TransformerUIProps} from "@grafana/data/src/transformations";
-import {DataTransformerInfo, PluginState} from "@grafana/data";
-import {TransformerDef} from "../../../../../packages/grafana-data/src/types/transformerPlugin";
+import {TransformerUIProps,TransformerDef, DataTransformerInfo, PluginState} from "@grafana/data";
 
 interface BasicTransformerOptions {
   options: {}
