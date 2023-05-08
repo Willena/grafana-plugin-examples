@@ -1,0 +1,28 @@
+{
+  "$schema": "../../../../docs/sources/developers/plugins/plugin.schema.json",
+  "type": "transformer",
+  "name": "Basic transformer",
+  "id": "myorg-basic-transformer",
+  "info": {
+    "keywords": [
+      "basic",
+      "transformer",
+      "example"
+    ],
+    "description": "A basic grafana transformer plugin",
+    "author": {
+      "name": "Willena"
+    },
+    "logos": {
+      "small": "img/logo.svg",
+      "large": "img/logo.svg"
+    },
+    "screenshots": [],
+    "version": "%VERSION%",
+    "updated": "%TODAY%"
+  },
+  "dependencies": {
+    "grafanaDependency": ">=9.2.1",
+    "plugins": []
+  }
+}
